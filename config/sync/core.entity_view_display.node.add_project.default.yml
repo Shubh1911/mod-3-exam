@@ -1,0 +1,55 @@
+uuid: bd29b918-b025-4e70-9b1a-a4c8dada4d63
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.add_project.field_description
+    - field.field.node.add_project.field_skills_required
+    - field.field.node.add_project.field_team
+    - field.field.node.add_project.field_technologies_used_
+    - node.type.add_project
+  module:
+    - user
+id: node.add_project.default
+targetEntityType: node
+bundle: add_project
+mode: default
+content:
+  field_description:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_skills_required:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_team:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_technologies_used_:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

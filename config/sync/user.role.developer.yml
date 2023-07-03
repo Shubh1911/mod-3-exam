@@ -1,0 +1,18 @@
+uuid: 7b04508a-4f09-4f86-9f4f-30e487d01aef
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.add_project
+  module:
+    - contextual
+    - node
+    - system
+id: developer
+label: Developer
+weight: 4
+is_admin: null
+permissions:
+  - 'access contextual links'
+  - 'administer menu'
+  - 'view add_project revisions'

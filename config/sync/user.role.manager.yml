@@ -1,0 +1,23 @@
+uuid: 8ef7ed64-9076-4379-83ff-5219e0ead8bb
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.add_project
+  module:
+    - contextual
+    - field_ui
+    - node
+    - system
+id: manager
+label: Manager
+weight: 6
+is_admin: null
+permissions:
+  - 'access contextual links'
+  - 'administer menu'
+  - 'administer node display'
+  - 'create add_project content'
+  - 'delete any add_project content'
+  - 'edit any add_project content'
+  - 'view add_project revisions'

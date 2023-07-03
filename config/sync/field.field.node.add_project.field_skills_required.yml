@@ -1,0 +1,19 @@
+uuid: d476085a-9326-427a-a1f6-c4d93845bbf6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_skills_required
+    - node.type.add_project
+id: node.add_project.field_skills_required
+field_name: field_skills_required
+entity_type: node
+bundle: add_project
+label: 'Skills required'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

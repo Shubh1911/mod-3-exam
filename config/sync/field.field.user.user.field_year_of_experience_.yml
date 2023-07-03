@@ -1,0 +1,20 @@
+uuid: f4f6325d-e4e7-42ef-a292-3ec10506c26f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_year_of_experience_
+  module:
+    - user
+id: user.user.field_year_of_experience_
+field_name: field_year_of_experience_
+entity_type: user
+bundle: user
+label: 'Year of Experience '
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

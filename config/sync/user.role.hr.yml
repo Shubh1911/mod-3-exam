@@ -1,0 +1,24 @@
+uuid: 2fb0eb11-a3e7-49d7-8ddc-ab2f201d982f
+langcode: en
+status: true
+dependencies:
+  module:
+    - contextual
+    - system
+    - views_ui
+id: hr
+label: HR
+weight: 5
+is_admin: null
+permissions:
+  - 'access contextual links'
+  - 'access user profiles'
+  - 'administer account settings'
+  - 'administer menu'
+  - 'administer permissions'
+  - 'administer users'
+  - 'administer views'
+  - 'cancel account'
+  - 'change own username'
+  - 'select account cancellation method'
+  - 'view user email addresses'

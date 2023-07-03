@@ -1,0 +1,20 @@
+uuid: 7f0bffb3-5808-40dd-9fd9-52b52e9d7afd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_skills
+  module:
+    - user
+id: user.user.field_skills
+field_name: field_skills
+entity_type: user
+bundle: user
+label: Skills
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

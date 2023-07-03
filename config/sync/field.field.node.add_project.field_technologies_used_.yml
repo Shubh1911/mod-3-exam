@@ -1,0 +1,19 @@
+uuid: c098584a-b84e-44cb-8c68-a2e8b64b8861
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_technologies_used_
+    - node.type.add_project
+id: node.add_project.field_technologies_used_
+field_name: field_technologies_used_
+entity_type: node
+bundle: add_project
+label: 'Technologies Used '
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
